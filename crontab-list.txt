@@ -1,0 +1,4 @@
+*/5 * * * *  /usr/bin/node /home/ubuntu/monitors/monitorGateways.js
+*/5 * * * *  /usr/bin/node /home/ubuntu/monitors/monitorRootNodes.js
+*/2 * * * *  /usr/bin/node /home/ubuntu/monitors/monitorTestnetBlockNumber.js
+*/2 * * * *  /usr/bin/node /home/ubuntu/monitors/HashCheck.js
