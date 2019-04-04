@@ -1,0 +1,16 @@
+{
+  "name": "monitors",
+  "version": "1.0.0",
+  "description": "",
+  "main": "monitorGateways.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chain3": "^0.1.14",
+    "js-curl": "^1.0.4",
+    "nodemailer": "^4.7.0"
+  }
+}
