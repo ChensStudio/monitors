@@ -4,6 +4,7 @@ const threshold = 120;
 
 let monitorTestnetGatewayUrls = [
                                     {url: 'http://59.111.60.141:8932', alias: 'Testnet China'}
+                                    ,{url: 'http://47.110.129.12:8932', alias: 'Testnet China 1'}
                                     ,{url: 'http://34.220.200.118:8932', alias: 'Testnet OR'}
                                     ,{url: 'http://18.185.83.122:8932',alias: 'Testnet Frankfurt'}
                                 ];
