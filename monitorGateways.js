@@ -41,7 +41,8 @@ for (let i = 0; i < monitorTestnetGatewayUrls.length; i++){
 }
 for (let i = 0; i < blockHeights.length; i++){
     if (Math.abs(blockHeights[i]-maxHeight)>threshold){
-        mailBody = mailBody + "Please check testnet server " + monitorTestnetGatewayUrls[i].alias + ' (url: '+ monitorTestnetGatewayUrls[i].url + ')\n';
+        mailBody = mailBody + "Please check testnet server " + monitorTestnetGatewayUrls[i].alias + ' (url: '+ monitorTestnetGatewayUrls[i].url + 
+        ' blockchain height: ' + blockHeights[i] + ')\n';
     }
 }
 //console.log(blockHeights);
@@ -64,7 +65,8 @@ for (let i = 0; i < monitorMainnetGatewayUrls.length; i++){
 }
 for (let i = 0; i < blockHeights.length; i++){
     if (Math.abs(blockHeights[i]-maxHeight)>threshold){
-        mailBody = mailBody + "Please check mainnet server " + monitorMainnetGatewayUrls[i].alias + ' (url: '+ monitorMainnetGatewayUrls[i].url + ')\n';
+        mailBody = mailBody + "Please check mainnet server " + monitorMainnetGatewayUrls[i].alias + ' (url: '+ monitorMainnetGatewayUrls[i].url + 
+        ' blockchain height: ' + blockHeights[i] + ')\n';
     }
 }
 //console.log(blockHeights);
