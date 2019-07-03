@@ -19,7 +19,7 @@ let monitorMainnetGatewayUrls = [
                                     ,{url: 'http://35.178.188.187:8932', alias: 'Mainnet London'}
                                 ]
 
-let threshold = 4;
+let threshold = 6;
 let chain3 = new Chain3();
 let blockHeights = new Array();
 let maxHeight = 0;
