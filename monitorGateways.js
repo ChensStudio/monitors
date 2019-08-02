@@ -5,7 +5,7 @@ let monitorTestnetGatewayUrls = [
                                     {url: 'http://gateway.moac.io/testnet', alias: 'Testnet Gateway'}
                                     ,{url: 'http://59.111.60.141:8932', alias: 'Testnet China'}
                                     //,{url: 'http://47.110.129.12:8932', alias: 'Testnet China 1'}
-                                    ,{url: 'http://35.163.101.246:8932', alias: 'Testnet OR'}
+                                    ,{url: 'http://34.217.90.193:8932', alias: 'Testnet OR'}
                                     ,{url: 'http://18.185.83.122:8932',alias: 'Testnet Frankfurt'}
                                 ]
 
