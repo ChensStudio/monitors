@@ -47,7 +47,7 @@ for (let i = 0; i < blockHeights.length; i++){
         ' blockchain height: ' + blockHeights[i] + ')\n';
     }
 }
-//console.log(blockHeights);
+console.log(blockHeights);
 
 
 blockHeights = new Array();
