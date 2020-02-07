@@ -1,0 +1,2 @@
+*/30 * * * *  /usr/bin/node /home/ubuntu/monitors/monitorGateways.js
+*/30 * * * *  /usr/bin/node /home/ubuntu/monitors/monitorRootNodes.js

@@ -13,7 +13,7 @@ var transporter = nodemailer.createTransport({
 var mailOptions = {
     from: 'helpdesk@pasnet.us',
     to: '442056022@qq.com',
-    subject: 'Moac Gateway Issue (This is not a test)',
+    subject: 'Moac Gateway Issue (This is test from server)',
     text: mailBody
 };
 

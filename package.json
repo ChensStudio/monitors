@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "aws-sdk": "^2.613.0",
     "chain3": "^0.1.14",
     "js-curl": "^1.0.4",
     "nodemailer": "^4.7.0"
