@@ -63,7 +63,7 @@ function sendMail(mailBody, instruction) {
     var mailOptions = {
         from: 'helpdesk@pasnet.us',
         to: 'yang.chen@moac.io; xinle.yang@moac.io; zhengpeng.li@moac.io; david.chen@moac.io; qing.xu@moac.io; qxu@mossglobal.net',
-        subject: 'Moac Root Node Issue',
+        subject: 'Moac Boot Node Issue',
         text: mailBody + '\n' + instruction
     };
 
