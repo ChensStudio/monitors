@@ -15,7 +15,7 @@ let monitorMainnetGatewayUrls = [
                                     {url: 'http://gateway.moac.io/mainnet', alias: 'Mainnet Gateway'}
                                     ,{url: 'http://59.111.60.140:8932', alias: 'Mainnet China'}
                                     ,{url: 'http://35.161.103.244:8932', alias: 'Mainnet OR'}
-                                    ,{url: 'http://3.80.171.1:8932', alias: 'Miannet N.VA'}
+                                    // ,{url: 'http://3.80.171.1:8932', alias: 'Miannet N.VA'}
                                     ,{url: 'http://13.53.72.84:8932', alias: 'Mainnet Stockholm'}
                                     ,{url: 'http://3.127.39.74:8932', alias: 'Mainnet Frankfurt'}
                                     ,{url: 'http://35.178.188.187:8932', alias: 'Mainnet London'}
