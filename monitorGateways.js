@@ -77,8 +77,8 @@ if (mailBody != '') {
     });
 
     var mailOptions = {
-        from: 'helpdesk@pasnet.us',
-        to: 'yang.chen@moac.io; xinle.yang@moac.io',
+        from: 'yang.chen@moac.io',
+        to: 'yang.chen@moac.io; xinle.yang@moac.io; qing.xu@moac.io; qxu@mossglobal.net',
         subject: 'Moac Gateway Issue (This is not a test)',
         text: mailBody + '\n' + instruction
     };
