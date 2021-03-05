@@ -40,8 +40,8 @@ let monitorMainRoots = [
     { url: '124.70.166.158:30333', alias: 'Moac Node China', owner: 'Qing Xu', networkID: '99' }, 
     { url: '117.78.9.104:30333', alias: 'Moac Node China', owner: 'Qing Xu', networkID: '99' }, 
     { url: '121.37.217.111:30333', alias: 'Moac Node China', owner: 'Qing Xu', networkID: '99' }, 
-    { url: '39.108.79.40:30333', alias: 'Boot Node China', owner: 'Qing Xu', networkID: '101' }, 
-    { url: '47.98.255.26:30333', alias: 'Boot Node China', owner: 'Qing Xu', networkID: '101' }, 
+    { url: '124.70.63.159:30333', alias: 'Boot Node China', owner: 'Qing Xu', networkID: '101' }, 
+    { url: '124.70.63.132:30333', alias: 'Boot Node China', owner: 'Qing Xu', networkID: '101' }, 
     { url: '18.217.180.94:30333', alias: 'Boot Node US', owner: 'Zhengpeng Li', networkID: '101' }, 
     { url: '18.188.171.176:30333', alias: 'Boot Node US', owner: 'Zhengpeng Li', networkID: '101' }, 
     { url: '52.15.143.41:30333', alias: 'Boot Node US', owner: 'Zhengpeng Li', networkID: '101' }
