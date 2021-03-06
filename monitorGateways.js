@@ -4,16 +4,16 @@ var AWS = require('aws-sdk');
 AWS.config.update({ region: 'us-west-2' });
 
 let monitorTestnetGatewayUrls = [
-    { url: 'http://gateway.moac.io/testnet', alias: 'Testnet Gateway' }, { url: 'http://59.111.60.141:8932', alias: 'Testnet China' }
+    { url: 'http://gateway.moac.io/testnet', alias: 'Testnet Gateway' }, { url: 'http://124.71.40.201:8932', alias: 'Testnet China' }
     //,{url: 'http://47.110.129.12:8932', alias: 'Testnet China 1'}
     , { url: 'http://34.217.90.193:8932', alias: 'Testnet OR' }, { url: 'http://18.185.83.122:8932', alias: 'Testnet Frankfurt' }
 ]
 
 let monitorMainnetGatewayUrls = [
     { url: 'http://gateway.moac.io/mainnet', alias: 'Mainnet Gateway' }, 
-    { url: 'http://59.111.60.140:8932', alias: 'Mainnet China' }, 
+    { url: 'http://124.71.20.30:8932', alias: 'Mainnet China' }, 
     { url: 'http://35.161.103.244:8932', alias: 'Mainnet OR' }, 
-    { url: 'http://3.80.171.1:8932', alias: 'Miannet N.VA' }, 
+    { url: 'http://3.80.171.1:8932', alias: 'Mainnet N.VA' }, 
     { url: 'http://13.53.72.84:8932', alias: 'Mainnet Stockholm' }, 
     { url: 'http://3.127.39.74:8932', alias: 'Mainnet Frankfurt' }, 
     { url: 'http://35.178.188.187:8932', alias: 'Mainnet London' }
