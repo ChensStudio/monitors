@@ -44,7 +44,9 @@ let monitorMainRoots = [
     { url: '124.70.63.132:30333', alias: 'Boot Node China', owner: 'Qing Xu', networkID: '101' }, 
     { url: '18.217.180.94:30333', alias: 'Boot Node US', owner: 'Zhengpeng Li', networkID: '101' }, 
     { url: '18.188.171.176:30333', alias: 'Boot Node US', owner: 'Zhengpeng Li', networkID: '101' }, 
-    { url: '52.15.143.41:30333', alias: 'Boot Node US', owner: 'Zhengpeng Li', networkID: '101' }
+    { url: '52.15.143.41:30333', alias: 'Boot Node US', owner: 'Zhengpeng Li', networkID: '101' },
+    { url: '159.138.141.178:30333', alias: 'Explorer Vnode', owner: 'Qing Xu', networkID: '99' }, 
+    { url: '94.74.96.28:30333', alias: 'Explorer Vnode', owner: 'Qing Xu', networkID: '99' }
 ];
 
 compute(monitorMainRoots).then(

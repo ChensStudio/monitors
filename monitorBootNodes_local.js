@@ -27,28 +27,26 @@ const nodemailer = require('nodemailer');
 
 
 let monitorMainRoots = [
-                        {url: '18.233.50.84:30333', alias: 'Boot Node', owner: 'David Chen', networkID: '99'}
-                        ,{url: '18.211.187.153:30333', alias: 'Boot Node', owner: 'David Chen', networkID: '99'}
-                        ,{url: '54.71.244.228:30333', alias: 'Boot Node', owner: 'David Chen', networkID: '99'}
-                        ,{url: '52.34.175.72:30333', alias: 'Boot Node', owner: 'David Chen', networkID: '99'}
-                        ,{url: '18.130.240.247:30333', alias: 'Boot Node London', owner: 'Xinle Yang', networkID: '99'}
-                        ,{url: '13.211.142.153:30333', alias: 'Boot Node Syndney', owner: 'Xinle Yang', networkID: '99'}
-                        ,{url: '35.182.237.1:30333', alias: 'Boot Node C. Canada', owner: 'Xinle Yang', networkID: '99'}
-                        ,{url: '139.198.122.215:30333', alias: 'Boot Node, Guandong China', owner: 'Qing Xu', networkID: '99'}
-                        ,{url: '47.88.237.205:30333', alias: 'Boot Node China', owner: 'Qing Xu', networkID: '99'}
-                        ,{url: '47.74.9.125:30333', alias: 'Boot Node China', owner: 'Qing Xu', networkID: '99'}
-                        ,{url: '47.105.44.41:30333', alias: 'Moac Node China', owner: 'Qing Xu', networkID: '99'}
-                        ,{url: '39.107.107.211:30333', alias: 'Moac Node China', owner: 'Qing Xu', networkID: '99'}
-                        ,{url: '39.104.149.149:30333', alias: 'Moac Node China', owner: 'Qing Xu', networkID: '99'}
-                        ,{url: '106.15.187.168:30333', alias: 'Moac Node China', owner: 'Qing Xu', networkID: '99'}
-                        ,{url: '47.75.59.170:30333', alias: 'Moac Node China', owner: 'Qing Xu', networkID: '99'}
-                        ,{url: '47.107.54.38:30333', alias: 'Moac Node China', owner: 'Qing Xu', networkID: '99'}
-                        ,{url: '39.108.79.40:30333', alias: 'Boot Node China', owner: 'Qing Xu', networkID: '101'}
-                        ,{url: '47.98.255.26:30333', alias: 'Boot Node China', owner: 'Qing Xu', networkID: '101'}
-                        ,{url: '18.217.180.94:30333', alias: 'Boot Node US', owner: 'Zhengpeng Li', networkID: '101'}
-                        ,{url: '18.188.171.176:30333', alias: 'Boot Node US', owner: 'Zhengpeng Li', networkID: '101'}
-                        ,{url: '52.15.143.41:30333', alias: 'Boot Node US', owner: 'Zhengpeng Li', networkID: '101'}
-                        ];
+  { url: '18.233.50.84:30333', alias: 'Boot Node', owner: 'David Chen', networkID: '99' }, 
+  { url: '18.211.187.153:30333', alias: 'Boot Node', owner: 'David Chen', networkID: '99' }, 
+  { url: '54.71.244.228:30333', alias: 'Boot Node', owner: 'David Chen', networkID: '99' }, 
+  { url: '52.34.175.72:30333', alias: 'Boot Node', owner: 'David Chen', networkID: '99' }, 
+  { url: '18.130.240.247:30333', alias: 'Boot Node London', owner: 'Xinle Yang', networkID: '99' }, 
+  { url: '13.211.142.153:30333', alias: 'Boot Node Syndney', owner: 'Xinle Yang', networkID: '99' }, 
+  { url: '35.182.237.1:30333', alias: 'Boot Node C. Canada', owner: 'Xinle Yang', networkID: '99' }, 
+  { url: '47.88.237.205:30333', alias: 'Boot Node Singapore', owner: 'Qing Xu', networkID: '99' }, 
+  { url: '47.74.9.125:30333', alias: 'Boot Node Japan', owner: 'Qing Xu', networkID: '99' }, 
+  { url: '124.70.166.158:30333', alias: 'Moac Node China', owner: 'Qing Xu', networkID: '99' }, 
+  { url: '117.78.9.104:30333', alias: 'Moac Node China', owner: 'Qing Xu', networkID: '99' }, 
+  { url: '121.37.217.111:30333', alias: 'Moac Node China', owner: 'Qing Xu', networkID: '99' }, 
+  { url: '124.70.63.159:30333', alias: 'Boot Node China', owner: 'Qing Xu', networkID: '101' }, 
+  { url: '124.70.63.132:30333', alias: 'Boot Node China', owner: 'Qing Xu', networkID: '101' }, 
+  { url: '18.217.180.94:30333', alias: 'Boot Node US', owner: 'Zhengpeng Li', networkID: '101' }, 
+  { url: '18.188.171.176:30333', alias: 'Boot Node US', owner: 'Zhengpeng Li', networkID: '101' }, 
+  { url: '52.15.143.41:30333', alias: 'Boot Node US', owner: 'Zhengpeng Li', networkID: '101' },
+  { url: '159.138.141.178:30333', alias: 'Explorer Vnode', owner: 'Qing Xu', networkID: '99' }, 
+  { url: '94.74.96.28:30333', alias: 'Explorer Vnode', owner: 'Qing Xu', networkID: '99' }
+];
 
 compute(monitorMainRoots).then(
     res=>{
